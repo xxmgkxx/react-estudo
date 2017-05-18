@@ -1,7 +1,9 @@
 import React from 'react'
 
 const member = (props) => {
-    <div>{props.name} <strong>{prop.lastName}</strong></div>
+    return (
+        <div>{props.name} <strong>{props.lastName}</strong></div>
+    )
 }
 
 export default member
