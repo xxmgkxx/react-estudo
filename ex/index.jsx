@@ -1,10 +1,10 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
 
-import Component from './component'
+import CabralFamily from './cabralFamily'
 
 ReactDOM.render(
-    <Component value='Show!'/>,
+    <CabralFamily/>,
     document.getElementById('app')
 )
 
